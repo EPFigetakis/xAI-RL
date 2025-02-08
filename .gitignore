@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project Specific Files
+.logs/
+.logs/A2C
+.Testbook.ipynb
+.hiddenReplay/
+.Sim-Params
+.models/

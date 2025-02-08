@@ -12,4 +12,16 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.7.17'
+          python-version: '3.9.21'
+
+      - name: Install Py Packdages
+        run: |
+            pip install -r requirements.txt
+        
+      - name: Verify TK inter is installed 
+        run: |
+            sudo apt-get install python3.9-tk
+
+      - name: Run Unit Tests on Code
+        run: |
+            python unit_test.py
