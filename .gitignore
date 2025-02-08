@@ -171,9 +171,9 @@ cython_debug/
 .pypirc
 
 # Project Specific Files
-.logs/
-.logs/A2C
-.Testbook.ipynb
-.hiddenReplay/
-.Sim-Params
-.models/
+logs/
+HiddenReplay/
+Sim-Params
+models/
+TestBook.ipynb
+testing/
