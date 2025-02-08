@@ -18,10 +18,6 @@ jobs:
         run: |
             pip install -r requirements.txt
         
-      - name: Verify TK inter is installed 
-        run: |
-            python3.9 -m tkinter
-
       - name: Run Unit Tests on Code
         run: |
             python unit_test.py
