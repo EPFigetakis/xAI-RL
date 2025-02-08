@@ -20,7 +20,7 @@ jobs:
         
       - name: Verify TK inter is installed 
         run: |
-            sudo apt-get install python3.9-tk
+            python3.9 -m tkinter
 
       - name: Run Unit Tests on Code
         run: |
